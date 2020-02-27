@@ -4,3 +4,9 @@
     padding: 10px;
     background-color: yellowgreen;
 }
+.funding{
+    display: none;
+}
+.balance{
+    margin: 20px;
+}
