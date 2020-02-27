@@ -1,5 +1,6 @@
 .heading_title{
     height: auto;
-    width: 100%;
+    width: auto;
     padding: 10px;
+    background-color: yellowgreen;
 }
