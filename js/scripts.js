@@ -9,6 +9,7 @@ $(document).ready(function(){
         accountBalance = initialDeposit;
         $("#account_names").append(names);
         $("#balance_statement").text('KCS: '+accountBalance);
+        $("form").trigger('reset');
     });
 
     $("#account_names").click(function(){
@@ -21,6 +22,7 @@ $(document).ready(function(){
         totalDeposit = accountBalance+depositAmount;
         accountBalance = totalDeposit;
         $("#balance_statement").text('KCS: '+accountBalance);
+        $("form").trigger('reset');
     });
     $("form#withdraws").submit(function(){
         event.preventDefault();
@@ -28,5 +30,6 @@ $(document).ready(function(){
         totalWithdraw = accountBalance-withdrawAmount;
         accountBalance = totalWithdraw;
         $("#balance_statement").text('KCS: '+accountBalance);
+        $("form").trigger('reset');
     });
 });
