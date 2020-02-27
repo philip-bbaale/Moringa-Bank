@@ -3,10 +3,21 @@
     width: auto;
     padding: 10px;
     background-color: yellowgreen;
+    font-family: 'Fredoka One';
+}
+.acount_actions{
+    padding: 20px;
 }
 .funding{
-    display: none;
+     display: none;
 }
 .balance{
     margin: 20px;
+}
+#account_names{
+    font-family: 'Fredoka One';
+}
+#account_names:hover{
+    color: blue;
+    text-decoration: underline;
 }
